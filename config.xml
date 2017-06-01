@@ -89,7 +89,8 @@
     <gap:plugin name="org.apache.cordova.pushplugin" source="npm" />
     <!--<gap:plugin name="com.adobe.plugins.pushplugin" version="1.3.3" /> -->
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
-    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+    <!--<gap:plugin name="nl.x-services.plugins.launchmyapp"> -->
+    <gap:plugin name="nl.x-services.plugins.launchmyapp" spec="3.2.0" source="pgb">
         <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
     <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
