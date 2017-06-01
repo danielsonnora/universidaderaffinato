@@ -99,7 +99,7 @@
     <gap:plugin  name="ionic-plugin-keyboard"  source="npm" version="1.0.7" />
     <!--<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.5" />-->
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
-    <gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" source="npm"  />
+    <gap:plugin name="polarcape-cordova-plugin-document-handler" source="npm"  />
 
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="false" />
